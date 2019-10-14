@@ -1,0 +1,37 @@
+---
+headline: "Reported Crimes at Cooper Park Doubled from 2006 to 2018"
+subhead: "All major types of offences saw a rise"
+published_date: "October 14, 2019"
+site: "http://gracelinan.github.io/portfolio-01/"
+siteName: "Grace Li Portfolio"
+url: "http://gracelinan.github.io/portfolio-01/"
+kicker: "Local crime"
+author:
+    name: "Grace Li"
+    url: "http://gracelinan.github.io/portfolio-01/"
+    twitterHandle: "@GraceL129"
+analytics": ""
+---
+<!-- 
+  This line means, use default.hbs layout from src/html/layouts/
+-->
+
+{{!< default}}
+
+   <div class="story-body">
+      <p class="body-text serif">In 2006, the New York Police Department received 108 complaint cases that took place in Cooper Park, a public housing development in Brooklyn. In 2018, the number of complaints reached 212.</p>
+      <p class="body-text serif">The most common types of reported crimes in 2018 are harassment in the second degree, assault in the third degree, offence against public order and public sensibility, dangerous drugs, miscellaneous penal law and criminal mischief. The number of cases in all these categories rose from 2006 to 2018.</p>
+    </div>
+
+<!-- 
+  Charts are exactly the same.
+-->
+
+{{> story/barchart }}
+
+    <div class="story-body">
+        <p class="body-text serif">Harrassment 2 cases more than doubled from 21 to 44.</p>
+        <p class="body-text serif">Dangerous drugs remain a top issue, although the number of cases did not increase as much over the years.</p>
+    </div>
+
+
