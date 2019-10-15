@@ -33549,7 +33549,7 @@ var _default = index;
 exports.default = _default;
 },{"d3-selection":"../node_modules/d3-selection/src/index.js","d3-drag":"../node_modules/d3-svg-annotation/node_modules/d3-drag/src/index.js","d3-shape":"../node_modules/d3-svg-annotation/node_modules/d3-shape/index.js","d3-dispatch":"../node_modules/d3-svg-annotation/node_modules/d3-dispatch/index.js"}],"data/uk-resign.csv":[function(require,module,exports) {
 module.exports = "/uk-resign.03eb4402.csv";
-},{}],"scripts/chart-01.js":[function(require,module,exports) {
+},{}],"scripts/chart-02.js":[function(require,module,exports) {
 "use strict";
 
 var d3 = _interopRequireWildcard(require("d3"));
@@ -33569,12 +33569,12 @@ var margin = {
   top: 30,
   left: 70,
   right: 60,
-  bottom: 50
+  bottom: 30
 };
-var height = 420 - margin.top - margin.bottom;
+var height = 400 - margin.top - margin.bottom;
 var width = 750 - margin.left - margin.right;
 console.log('Building chart 1');
-var svg = d3.select('#chart-01').append('svg').attr('height', height + margin.top + margin.bottom).attr('width', width + margin.left + margin.right).append('g').attr('transform', 'translate(' + margin.left + ',' + margin.top + ')'); // Create your scales
+var svg = d3.select('#chart-02').append('svg').attr('height', height + margin.top + margin.bottom).attr('width', width + margin.left + margin.right).append('g').attr('transform', 'translate(' + margin.left + ',' + margin.top + ')'); // Create your scales
 
 var xPositionScale = d3.scaleLinear().domain([1981, 2019]).range([0, width]);
 var yPositionScale = d3.scaleLinear().range([height, 0]);
@@ -33635,11 +33635,11 @@ function ready(datapoints) {
 
   svg.call(makeAnnotations); // Add your axes
 
-  var xAxis = d3.axisBottom(xPositionScale).tickFormat(d3.format('d')).tickValues([1981, 1991, 1997, 2007, 2010, 2016]); // .ticks(12)
+  var xAxis = d3.axisBottom(xPositionScale).tickFormat(d3.format('d')).tickValues(['1981 Tharcher', 1991, 1997, 2007, 2010, 2016]); // .ticks(12)
 
   svg.append('g').attr('class', 'axis x-axis').attr('transform', 'translate(0,' + height + ')').call(xAxis);
   var yAxis = d3.axisLeft(yPositionScale).tickValues([4, 8, 12, 16]);
   svg.append('g').attr('class', 'axis y-axis').call(yAxis);
 }
-},{"d3":"../node_modules/d3/index.js","d3-tip":"../node_modules/d3-tip/index.js","d3-svg-annotation":"../node_modules/d3-svg-annotation/indexRollupNext.js","../data/uk-resign.csv":"data/uk-resign.csv"}]},{},["scripts/chart-01.js"], null)
-//# sourceMappingURL=/chart-01.08e79ccf.js.map
+},{"d3":"../node_modules/d3/index.js","d3-tip":"../node_modules/d3-tip/index.js","d3-svg-annotation":"../node_modules/d3-svg-annotation/indexRollupNext.js","../data/uk-resign.csv":"data/uk-resign.csv"}]},{},["scripts/chart-02.js"], null)
+//# sourceMappingURL=/chart-02.92076419.js.map

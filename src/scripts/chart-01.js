@@ -4,8 +4,8 @@ import d3Annotation from 'd3-svg-annotation'
 
 d3.tip = d3Tip
 
-const margin = { top: 30, left: 70, right: 60, bottom: 30 }
-const height = 400 - margin.top - margin.bottom
+const margin = { top: 30, left: 70, right: 60, bottom: 50 }
+const height = 420 - margin.top - margin.bottom
 const width = 750 - margin.left - margin.right
 
 console.log('Building chart 1')
