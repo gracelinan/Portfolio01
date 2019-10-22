@@ -28571,10 +28571,50 @@ function ready(datapoints) {
     }
   }).lower();
   svg.append('text').text('0').attr('text-anchor', 'middle').attr('alignment-baseline', 'middle');
+  svg.selectAll('.label').data(bands).enter().append('text').text(function (d) {
+    return d * 6;
+  }).attr('y', function (d) {
+    return -radiusScale(d);
+  }).attr('text-anchor', 'middle').attr('alignment-baseline', 'middle').style('font-size', 10);
+  svg.selectAll('.label').data(bands).enter().append('text').text(function (d) {
+    return d * 3;
+  }).attr('y', function (d) {
+    return -radiusScale(d);
+  }).attr('transform', "rotate(40)").attr('text-anchor', 'middle').attr('alignment-baseline', 'middle').style('font-size', 10);
+  svg.selectAll('.label').data(bands).enter().append('text').text(function (d) {
+    return d;
+  }).attr('y', function (d) {
+    return -radiusScale(d);
+  }).attr('transform', "rotate(80)").attr('text-anchor', 'middle').attr('alignment-baseline', 'middle').style('font-size', 10);
+  svg.selectAll('.label').data(bands).enter().append('text').text(function (d) {
+    return d / 2;
+  }).attr('y', function (d) {
+    return -radiusScale(d);
+  }).attr('transform', "rotate(120)").attr('text-anchor', 'middle').attr('alignment-baseline', 'middle').style('font-size', 10);
+  svg.selectAll('.label').data(bands).enter().append('text').text(function (d) {
+    return d * 1.5;
+  }).attr('y', function (d) {
+    return -radiusScale(d);
+  }).attr('transform', "rotate(200)").attr('text-anchor', 'middle').attr('alignment-baseline', 'middle').style('font-size', 10);
+  svg.selectAll('.label').data(bands).enter().append('text').text(function (d) {
+    return d;
+  }).attr('y', function (d) {
+    return -radiusScale(d);
+  }).attr('transform', "rotate(240)").attr('text-anchor', 'middle').attr('alignment-baseline', 'middle').style('font-size', 10);
+  svg.selectAll('.label').data(bands).enter().append('text').text(function (d) {
+    return d / 2;
+  }).attr('y', function (d) {
+    return -radiusScale(d);
+  }).attr('transform', "rotate(280)").attr('text-anchor', 'middle').attr('alignment-baseline', 'middle').style('font-size', 10);
+  svg.selectAll('.label').data(bands).enter().append('text').text(function (d) {
+    return d / 2;
+  }).attr('y', function (d) {
+    return -radiusScale(d);
+  }).attr('transform', "rotate(320)").attr('text-anchor', 'middle').attr('alignment-baseline', 'middle').style('font-size', 10);
   svg.selectAll('.outside-label').data(angleScale.domain()).enter().append('text').attr('font-weight', '700').text(function (d) {
     return d;
   }).attr('y', -radius) // set it up at the top of the chart
-  .attr('dy', -10) // give a little offset to push it higher
+  .attr('dy', -15) // give a little offset to push it higher
   .attr('transform', function (d) {
     return "rotate(".concat(angleScale(d) * 180 / Math.PI, ")");
   }).attr('text-anchor', 'middle').attr('alignment-baseline', 'middle');
