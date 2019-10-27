@@ -1,0 +1,100 @@
+Region,Subregion,Country_Name,ISO3,Cost_1_GB_USD,Cost_1_GB_Share_GNICM,
+Asia,Southern Asia,Afghanistan,AFG,1.91,0.04,4.17%
+Africa,Northern Africa,Algeria,DZA,6.70,0.02,1.98%
+Africa,Middle Africa,Angola,AGO,6.10,0.02,2.17%
+Americas,Southern America,Argentina,ARG,6.84,0.01,0.66%
+Asia,Southern Asia,Bangladesh,BGD,2.24,0.02,1.54%
+Americas,Central America,Belize,BLZ,17.38,0.04,4.42%
+Africa,Western Africa,Benin,BEN,4.28,0.06,5.91%
+Americas,Southern America,Bolivia,BOL,5.79,0.02,2.06%
+Africa,Southern Africa,Botswana,BWA,8.85,0.01,1.37%
+Americas,Southern America,Brazil,BRA,9.83,0.01,1.29%
+Africa,Western Africa,Burkina Faso,BFA,4.28,0.08,7.78%
+Africa,Eastern Africa,Burundi,BDI,3.17,0.14,13.60%
+Asia,South-Eastern Asia,Cambodia,KHM,2.00,0.02,1.74%
+Africa,Middle Africa,Cameroon,CMR,3.43,0.03,2.85%
+Africa,Western Africa,Cape Verde,CPV,5.09,0.02,1.77%
+Africa,Middle Africa,Central African Republic,CAF,9.05,0.23,22.63%
+Africa,Middle Africa,Chad,TCD,11.99,0.21,21.47%
+Asia,Eastern Asia,China,CHN,5.57,0.01,0.71%
+Americas,Southern America,Colombia,COL,9.26,0.02,1.80%
+Africa,Eastern Africa,Comoros,COM,5.99,0.05,5.45%
+Africa,Middle Africa,Congo Brazzaville,COG,8.73,0.06,6.39%
+Americas,Central America,Costa Rica,CRI,6.75,0.01,0.70%
+Africa,Western Africa,Cote d'Ivoire,CIV,6.85,0.05,5.11%
+Americas,Caribbean,Cuba,CUB,10.01,NA,NA
+Africa,Middle Africa,D.R. Congo,COD,10.71,0.26,26.24%
+Americas,Caribbean,Dominican Republic,DOM,7.90,0.01,1.29%
+Americas,Southern America,Ecuador,ECU,10.00,0.02,1.96%
+Africa,Northern Africa,Egypt,EGY,1.18,0.01,0.50%
+Americas,Central America,El Salvador,SLV,10.00,0.03,3.14%
+Africa,West Africa,Equatorial Guinea,GNQ,34.25,NA,NA
+Africa,Eastern Africa,Ethiopia,ETH,3.48,0.05,5.28%
+Oceania,Melanesia,Fiji,FJI,13.94,0.03,2.85%
+Africa,Middle Africa,Gabon,GAB,6.85,0.01,1.21%
+Africa,Western Africa,Gambia,GMB,5.04,0.09,8.64%
+Asia,Western Asia,Georgia,GEO,1.82,0.01,0.53%
+Africa,Western Africa,Ghana,GHA,3.60,0.02,2.03%
+Americas,Central America,Guatemala,GTM,12.91,0.04,3.51%
+Africa,Western Africa,Guinea,GIN,3.65,0.05,5.27%
+Africa,Western Africa,Guinea-Bissau,GNB,12.48,0.20,19.96%
+Americas,Southern America,Guyana,GUY,8.14,0.02,2.05%
+Americas,Caribbean,Haiti,HTI,2.03,0.03,3.05%
+Americas,Central America,Honduras,HND,18.76,0.10,9.66%
+Asia,Southern Asia,India,IND,0.75,0.00,0.45%
+Asia,South-Eastern Asia,Indonesia,IDN,3.86,0.01,1.21%
+Asia,Southern Asia,Iran,IRN,1.92,NA,NA
+Americas,Caribbean,Jamaica,JAM,7.72,0.02,1.86%
+Asia,Western Asia,Jordan,JOR,8.18,0.02,2.33%
+Asia,Central Asia,Kazakhstan,KAZ,2.08,0.00,0.32%
+Africa,Eastern Africa,Kenya,KEN,4.19,0.03,3.10%
+Asia,Central Asia,Kyrgyzstan,KGZ,3.07,0.03,3.02%
+Asia,South-Eastern Asia,Laos,LAO,4.61,0.02,2.25%
+Asia,Western Asia,Lebanon,LBN,21.09,0.03,3.29%
+Africa,Southern Africa,Lesotho,LSO,5.36,0.05,4.66%
+Africa,Western Africa,Liberia,LBR,8.63,0.17,17.25%
+Africa,Northern Africa,Libya,LBY,11.37,0.02,2.16%
+Africa,Eastern Africa,Madagascar,MDG,5.99,0.16,16.33%
+Africa,Eastern Africa,Malawi,MWI,4.75,0.16,15.85%
+Asia,South-Eastern Asia,Malaysia,MYS,3.62,0.00,0.41%
+Africa,Western Africa,Mali,MLI,6.85,0.10,9.90%
+Africa,Eastern Africa,Mauritius,MUS,5.96,0.01,0.59%
+Americas,Central America,Mexico,MEX,8.41,0.01,1.10%
+Asia,Eastern Asia,Mongolia,MNG,6.30,0.02,2.11%
+Africa,Northern Africa,Morocco,MAR,5.19,0.02,2.02%
+Africa,Eastern Africa,Mozambique,MOZ,2.50,0.07,6.82%
+Asia,South-Eastern Asia,Myanmar,MMR,0.66,0.01,0.60%
+Africa,Southern Africa,Namibia,NAM,8.57,0.02,1.96%
+Asia,Southern Asia,Nepal,NPL,5.08,0.06,6.34%
+Americas,Central America,Nicaragua,NIC,9.12,0.05,5.39%
+Africa,Western Africa,Niger,NER,3.43,0.11,10.82%
+Africa,Western Africa,Nigeria,NGA,2.78,0.02,1.70%
+Asia,Southern Asia,Pakistan,PAK,1.43,0.01,1.09%
+Oceania,Melanesia,Papua New Guinea,PNG,19.84,0.09,9.41%
+Americas,Southern America,Paraguay,PRY,7.19,0.02,1.52%
+Americas,Southern America,Peru,PER,9.04,0.02,1.66%
+Asia,South-Eastern Asia,Philippines,PHL,4.33,0.01,1.36%
+Africa,Eastern Africa,Rwanda,RWA,2.21,0.03,3.39%
+Africa,Western Africa,Senegal,SEN,3.43,0.03,2.92%
+Africa,Western Africa,Sierra Leone,SLE,4.11,0.10,9.86%
+Oceania,Melanesia,Solomon Islands,SLB,9.69,0.06,5.81%
+Africa,Eastern Africa,Somalia,SOM,4.00,NA,NA
+Africa,Southern Africa,South Africa,ZAF,10.37,0.02,2.17%
+Africa,Eastern Africa,South Sudan,SSD,5.36,NA,NA
+Asia,Southern Asia,Sri Lanka,LKA,0.78,0.00,0.23%
+Africa,Northern Africa,Sudan,SDN,0.98,0.01,0.75%
+Americas,Southern America,Suriname,SUR,11.93,0.03,2.87%
+Asia,Central Asia,Tajikistan,TJK,3.71,0.04,4.41%
+Africa,Eastern Africa,Tanzania,TZA,4.34,0.05,5.11%
+Asia,South-Eastern Asia,Thailand,THA,6.30,0.01,1.14%
+Asia,South-Eastern Asia,Timor-Leste,TLS,7.50,0.05,4.95%
+Africa,Western Africa,Togo,TGO,7.19,0.13,13.28%
+Americas,Caribbean,Trinidad and Tobago,TTO,49.35,0.04,3.65%
+Africa,Northern Africa,Tunisia,TUN,3.52,0.01,1.21%
+Asia,Western Asia,Turkey,TUR,4.26,0.00,0.49%
+Africa,Eastern Africa,Uganda,UGA,4.00,0.08,7.75%
+Europe,Eastern Europe,Ukraine,UKR,2.83,0.01,1.28%
+Asia,Central Asia,Uzbekistan,UZB,2.94,0.02,1.75%
+Asia,South-Eastern Asia,Vietnam,VNM,2.15,0.01,1.07%
+Africa,Eastern Africa,Zambia,ZMB,3.90,0.03,3.27%
+Africa,Eastern Africa,Zimbabwe,ZWE,15.00,0.10,10.06%
