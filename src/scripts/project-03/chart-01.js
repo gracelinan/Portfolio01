@@ -90,7 +90,7 @@ function ready(datapoints) {
       .data(datapoints)
       .attr('fill', function(d) {
         if (+d.Cost_1_GB_USD > 15) {
-          return 'lightskyblue'
+          return '#CD5C5C'
         } else {
           return 'lightgrey'
         }
