@@ -8,7 +8,7 @@ The data comes from five years' data provided by the wesbite of [Alliance for Af
 
 ## Methodology / Code 
 
-No coding was conducted. Some basic analysis was conducted in Excel. The data for each country was mapped out using d3 and [Datawrapper](https://www.datawrapper.de).
+No coding was conducted. Some basic analysis was conducted in Excel. The data for each country was mapped out using D3.js and [Datawrapper](https://www.datawrapper.de).
 
 ## Findings
 
