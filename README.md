@@ -1,4 +1,4 @@
-# Project-03 Mobile broadband price Analysis
+# Project-03 Mobile Broadband Price Analysis
 
 This repository contains data to support the findings reported in my October 28, 2019 article "[Underdeveloped Countries Face the Highest Cost for Information](https://gracelinan.github.io/Portfolio01/project-03.html)."
 
