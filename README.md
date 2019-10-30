@@ -4,7 +4,7 @@ This repository contains data to support the findings reported in my October 28,
 
 ## Data
 
-The data comes five years' data provided by the wesbite of [Alliance for Affordable Internet](https://a4ai.org/extra/mobile_broadband_pricing_usd-2019Q2).
+The data comes from five years' data provided by the wesbite of [Alliance for Affordable Internet](https://a4ai.org/extra/mobile_broadband_pricing_usd-2019Q2).
 
 ## Methodology / Code 
 
